@@ -21,15 +21,6 @@ class Capa:
     def fill_B(self, x):
         for i in range(self.size):
             self.B[i,0] = x[i]
-    
-    def print_layer(self, i):
-        print("####################\n#      Capa ", i, "       #\n###################")
-        print("W:")
-        print(self.W)
-        print("B:")
-        print(self.B)
-        print("Size W: ", self.size_W())
-        print("Size B: ", self.size_B())
 
 def CreateNN(wb, num_neuronas_ocultas, num_entradas, num_neuronas_salida):
     """
@@ -61,21 +52,6 @@ def CreateNN(wb, num_neuronas_ocultas, num_entradas, num_neuronas_salida):
         red[i].fill_B(wb[cont:cont + to_fill])
         cont += to_fill
     
-    # for i in range(num_capas):
-    #     red[i].print_layer(i)
-    
     return red
-    """
-    # Pesos de la primera capa
-    for i in range(num_neuronas_ocultas[0]):
-        for j in range(num_entradas):
-            W[1][i][j] = wb[cont]
-            cont += 1
-    
-    # Terminos independientes de la primera capa
-    for i in range(num_neuronas_ocultas[0]):
-        B[1,i] = wb[cont]
-        cont += 1
-    """
 
 # CreateNN([1,1,2,1,131,2,3,4,5,6,1,1,1,1,1,6,1],[3,2],2,2)

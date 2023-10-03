@@ -41,9 +41,7 @@ class Corner:
         self.building.building = CITY
 
 class Player:
-    def __init__(self, screen, font, color, coords):
-        self.screen = screen
-        self.font = font
+    def __init__(self, color, coords):
         self.color = color
         self.coords = coords
         self.roads_left = 13
@@ -105,14 +103,11 @@ class Player:
                 for i in range(len(all_resources)):
                     for j in range(i,len(all_resources)):
                         actions += [(PLAY_YEAR_OF_PLENTY, all_resources[i], all_resources[j])]
-            #print("Los puertos que tiene son: ", self.ports)
             for i in all_resources:
                 count = 4
                 if self.ports[i] == True:
-                    #print("Tiene puerto específico de ", i)
                     count = 2
                 elif self.ports[0] == True:
-                    #print("Tiene puerto general")
                     count = 3
                 if i == FOREST:
                     maritime_available = self.lumber >= count
@@ -141,22 +136,17 @@ class Player:
                     domestic_available_3 = self.grain >= 3 and count > 3
                 if maritime_available:
                     for j in [res for res in all_resources if res != i]:
-                        #print("Iteracion: ", i , " , ", j)
                         actions += [(MARITIME_TRADE, i, j)]
                 if domestic_available_1:
                     for j in [res for res in all_resources if res != i]:
-                        #print("Iteracion: ", i , " , ", j)
                         actions += [(DOMESTIC_TRADE, i, 1, j, 1)]
                 if domestic_available_2:
                     for j in [res for res in all_resources if res != i]:
-                        #print("Iteracion: ", i , " , ", j)
                         actions += [(DOMESTIC_TRADE, i, 2, j, 2)]
                 if domestic_available_3:
                     for j in [res for res in all_resources if res != i]:
-                        #print("Iteracion: ", i , " , ", j)
                         actions += [(DOMESTIC_TRADE, i, 3, j, 3)]
 
-        # print("Las acciones posibles son:\n",actions)
         return actions
     
     def able_to_trade(self,element,ammount):
@@ -166,48 +156,8 @@ class Player:
                 (element == FIELDS and self.grain > ammount) or
                 (element == MOUNTAINS and self.ore > ammount))
 
-    """
-    def print_stats(self):
-        print("\t* Madera: ", self.lumber)
-        print("\t* Arcilla: ", self.brick)
-        print("\t* Oveja: ", self.wool)
-        print("\t* Paja: ", self.grain)
-        print("\t* Piedra: ", self.ore)
-        print("\t* Caballeros Activos: ", self.active_knights)
-        print("\t* Bonus Caballeros: ", self.knight_bonus)
-
-    def draw_stats(self):
-        pygame.draw.polygon(self.screen, self.color, self.coords)
-        top_corner = self.coords[0]
-        self.screen.blit(self.font.render("Resources: " + str(self.resource_cards),True,(0,0,0)), (top_corner[0]+15, top_corner[1]+15))
-        pygame.draw.circle(self.screen, COLOR_FOREST, (top_corner[0]+190, top_corner[1]+20), 5)
-        self.screen.blit(self.font.render(str(self.lumber),True,(0,0,0)), (top_corner[0]+200, top_corner[1]+15))
-        pygame.draw.circle(self.screen, COLOR_HILLS, (top_corner[0]+220, top_corner[1]+20), 5)
-        self.screen.blit(self.font.render(str(self.brick),True,(0,0,0)), (top_corner[0]+230, top_corner[1]+15))
-        pygame.draw.circle(self.screen, COLOR_PASTURE, (top_corner[0]+250, top_corner[1]+20), 5)
-        self.screen.blit(self.font.render(str(self.wool),True,(0,0,0)), (top_corner[0]+260, top_corner[1]+15))
-        pygame.draw.circle(self.screen, COLOR_FIELDS, (top_corner[0]+280, top_corner[1]+20), 5)
-        self.screen.blit(self.font.render(str(self.grain),True,(0,0,0)), (top_corner[0]+290, top_corner[1]+15))
-        pygame.draw.circle(self.screen, COLOR_MOUNTAINS, (top_corner[0]+310, top_corner[1]+20), 5)
-        self.screen.blit(self.font.render(str(self.ore),True,(0,0,0)), (top_corner[0]+320, top_corner[1]+15))
-        self.screen.blit(self.font.render("Development cards: " + str(self.vp_cards + self.knights + self.monopoly + self.year_of_plenty + self.road_building),True,(0,0,0)), (top_corner[0]+15, top_corner[1]+30))
-        self.screen.blit(self.font.render("VP: " + str(self.vp_cards) + " K: " + str(self.knights) + " M: " + str(self.monopoly) + " YoP: " + str(self.year_of_plenty) + " RB: " + str(self.road_building),True,(0,0,0)), (top_corner[0]+180, top_corner[1]+30))
-        color = (0,0,0)
-        if self.knight_bonus:
-            color = (212,175,55)
-        self.screen.blit(self.font.render("Active knights: " + str(self.active_knights),True,color), (top_corner[0]+15, top_corner[1]+45))
-        color = (0,0,0)
-        if self.road_bonus:
-            color = (212,175,55)
-        self.screen.blit(self.font.render("Longest path: " + str(self.longest_path),True,color), (top_corner[0]+15, top_corner[1]+60))
-        vp_font = pygame.font.Font(pygame.font.get_default_font(),30)
-        self.screen.blit(vp_font.render("VP: " + str(self.vp + self.vp_cards),True,(212,175,55)), (top_corner[0]+250, top_corner[1]+60))
-    """
-
 class Game:
-    def __init__(self,screen,font,red,red_1,red_2,red_3,red_5,red_7,red_8,red_10,red_11,red_12,red_16):
-        self.screen = screen
-        self.font = font
+    def __init__(self,red,red_1,red_2,red_3,red_5,red_7,red_8,red_10,red_11,red_12,red_16):
         self.red = red
         self.red_1 = red_1
         self.red_2 = red_2
@@ -227,14 +177,14 @@ class Game:
             self.corners += [Corner(CORNERS_COORDS[i],CORNERS_ADJACENTS[i],CORNERS_ADJACENTS_EDGES[i],CORNERS_ADJACENTS_TILES[i],CORNERS_PORTS[i])]
         for i in range(72):
             self.edges += [Edge(EDGES_COORDS[i], EDGES_ORIENTATIONS[i], EDGES_ADJACENTS[i])]
-        self.table = Table(screen,font,self.corners,self.edges)
+        self.table = Table(self.corners,self.edges)
         self.players = []
         self.turn = 0
         self.player_in_turn = 0
         self.trades_made = 0
         self.development_cards_left = [KNIGHT]*14 + [MONOPOLY]*2 + [YEAR_OF_PLENTY]*2 + [ROAD_BUILDING]*2 + [VP_CARD]*5
         for i in range(4):
-            self.players += [Player(self.screen, self.font, PLAYER_COLORS[i], PLAYER_COORDS[i])]
+            self.players += [Player(PLAYER_COLORS[i], PLAYER_COORDS[i])]
         self.building_phase = True
         self.late_building_phase = False
         self.die_1 = 0
@@ -252,59 +202,6 @@ class Game:
                 is_win = True
                 print("Se acabó la partida")
         return is_win
-
-    """
-    def print_game(self):
-        for player in self.players:
-            player.resource_cards = player.brick + player.lumber + player.wool + player.grain + player.ore
-        pygame.draw.polygon(self.screen, PLAYER_COLORS[self.player_in_turn], [(0,0), (0,900), (1600,900), (1600,0)])
-        pygame.draw.polygon(self.screen, (0,0,0), [(25,25), (25,875), (1575,875), (1575,25)])
-        pygame.draw.polygon(self.screen, (122, 195, 250), [(510,210), (1090,210), (1090,690), (510,690)])
-        self.table.print_table()
-        for corner in self.corners:
-            if corner.building.building != -1:
-                points = []
-                if corner.building.building == CITY:
-                    points =    [[corner.x - BUILDING_W/2, corner.y],
-                                [corner.x - BUILDING_W/2, corner.y + BUILDING_H/2],
-                                [corner.x + BUILDING_W/2, corner.y + BUILDING_H/2],
-                                [corner.x + BUILDING_W/2, corner.y - BUILDING_H/4],
-                                [corner.x + BUILDING_W/4, corner.y - BUILDING_H/2],
-                                [corner.x, corner.y - BUILDING_H/4],
-                                [corner.x, corner.y]]
-                else:
-                    points =    [[corner.x - BUILDING_W/4, corner.y],
-                                [corner.x - BUILDING_W/4, corner.y + BUILDING_H/2],
-                                [corner.x + BUILDING_W/4, corner.y + BUILDING_H/2],
-                                [corner.x + BUILDING_W/4, corner.y],
-                                [corner.x, corner.y - BUILDING_H/4]]
-                pygame.draw.polygon(self.screen, PLAYER_COLORS[corner.building.player], points)
-        for edge in self.edges:
-            if edge.road != -1:
-                if edge.orientation == 0:
-                    points =    [[edge.x - ROAD_W, edge.y - ROAD_H],
-                                [edge.x - ROAD_W, edge.y + ROAD_H],
-                                [edge.x + ROAD_W, edge.y + ROAD_H],
-                                [edge.x + ROAD_W, edge.y - ROAD_H]]
-                elif edge.orientation == 1:
-                    points =    [[edge.x - (math.cos(math.pi/3)*ROAD_W/2) + (math.sin(math.pi/3)*ROAD_H/2) - (math.cos(math.pi/3)*ROAD_W/2 - math.sin(math.pi/3)*ROAD_H/2), edge.y - (math.sin(math.pi/3)*ROAD_W/2) - (math.cos(math.pi/3)*ROAD_H/2) - (math.sin(math.pi/3)*ROAD_W/2 + math.cos(math.pi/3)*ROAD_H/2)],
-                                [edge.x - (math.cos(math.pi/3)*ROAD_W/2) - (math.sin(math.pi/3)*ROAD_H/2) - (math.cos(math.pi/3)*ROAD_W/2 + math.sin(math.pi/3)*ROAD_H/2), edge.y - (math.sin(math.pi/3)*ROAD_W/2) + (math.cos(math.pi/3)*ROAD_H/2) - (math.sin(math.pi/3)*ROAD_W/2 - math.cos(math.pi/3)*ROAD_H/2)],
-                                [edge.x + (math.cos(math.pi/3)*ROAD_W/2) - (math.sin(math.pi/3)*ROAD_H/2) + (math.cos(math.pi/3)*ROAD_W/2 - math.sin(math.pi/3)*ROAD_H/2), edge.y + (math.sin(math.pi/3)*ROAD_W/2) + (math.cos(math.pi/3)*ROAD_H/2) + (math.sin(math.pi/3)*ROAD_W/2 + math.cos(math.pi/3)*ROAD_H/2)],
-                                [edge.x + (math.cos(math.pi/3)*ROAD_W/2) + (math.sin(math.pi/3)*ROAD_H/2) + (math.cos(math.pi/3)*ROAD_W/2 + math.sin(math.pi/3)*ROAD_H/2), edge.y + (math.sin(math.pi/3)*ROAD_W/2) - (math.cos(math.pi/3)*ROAD_H/2) + (math.sin(math.pi/3)*ROAD_W/2 - math.cos(math.pi/3)*ROAD_H/2)]]
-                else:
-                    points =    [[edge.x - (math.cos(-math.pi/3)*ROAD_W/2) + (math.sin(-math.pi/3)*ROAD_H/2) - (math.cos(-math.pi/3)*ROAD_W/2 - math.sin(-math.pi/3)*ROAD_H/2), edge.y - (math.sin(-math.pi/3)*ROAD_W/2) - (math.cos(-math.pi/3)*ROAD_H/2) - (math.sin(-math.pi/3)*ROAD_W/2 + math.cos(-math.pi/3)*ROAD_H/2)],
-                                [edge.x - (math.cos(-math.pi/3)*ROAD_W/2) - (math.sin(-math.pi/3)*ROAD_H/2) - (math.cos(-math.pi/3)*ROAD_W/2 + math.sin(-math.pi/3)*ROAD_H/2), edge.y - (math.sin(-math.pi/3)*ROAD_W/2) + (math.cos(-math.pi/3)*ROAD_H/2) - (math.sin(-math.pi/3)*ROAD_W/2 - math.cos(-math.pi/3)*ROAD_H/2)],
-                                [edge.x + (math.cos(-math.pi/3)*ROAD_W/2) - (math.sin(-math.pi/3)*ROAD_H/2) + (math.cos(-math.pi/3)*ROAD_W/2 - math.sin(-math.pi/3)*ROAD_H/2), edge.y + (math.sin(-math.pi/3)*ROAD_W/2) + (math.cos(-math.pi/3)*ROAD_H/2) + (math.sin(-math.pi/3)*ROAD_W/2 + math.cos(-math.pi/3)*ROAD_H/2)],
-                                [edge.x + (math.cos(-math.pi/3)*ROAD_W/2) + (math.sin(-math.pi/3)*ROAD_H/2) + (math.cos(-math.pi/3)*ROAD_W/2 + math.sin(-math.pi/3)*ROAD_H/2), edge.y + (math.sin(-math.pi/3)*ROAD_W/2) - (math.cos(-math.pi/3)*ROAD_H/2) + (math.sin(-math.pi/3)*ROAD_W/2 - math.cos(-math.pi/3)*ROAD_H/2)]]
-                pygame.draw.polygon(self.screen, PLAYER_COLORS[edge.road], points)
-        for player in self.players:
-            player.draw_stats()
-        big_font = pygame.font.Font(pygame.font.get_default_font(),50)
-        pygame.draw.polygon(self.screen, (255,255,255), [(675,50), (675,125), (750,125), (750,50)])
-        pygame.draw.polygon(self.screen, (255,255,255), [(850,50), (850,125), (925,125), (925,50)])
-        self.screen.blit(big_font.render(str(self.die_2),True,(0,0,0)), (875, 65))
-        self.screen.blit(big_font.render(str(self.die_1),True,(0,0,0)), (700, 65))
-    """
 
     def deal_cards(self, result):
         for tile in self.table.tiles:
@@ -335,12 +232,7 @@ class Game:
                             else:
                                 self.players[corner.building.player].grain += 1
                             self.players[corner.building.player].resource_cards += 1
-        """
-        for i in range(len(self.players)):
-            print("El jugador ", i, "tiene los siguientes recursos:")
-            self.players[i].print_stats()
-        """
-    
+
     def find_robber(self):
         for i in range(19):
             if self.table.tiles[i].robber == True:
@@ -367,10 +259,8 @@ class Game:
         self.die_1 = random.randint(1,6)
         self.die_2 = random.randint(1,6)
         result = self.die_1 + self.die_2
-        # print("Ha salido el número", result)
         if result == 7:
             for i in range(len(self.players)):
-                # print("El jugador ", i, "tiene ", self.players[i].resource_cards, " cartas en la mano")
                 if self.players[i].resource_cards > 7:
                     all_possibilites = self.get_all_discards(i)
                     all_discards = []
@@ -379,7 +269,6 @@ class Game:
                     chosen = self.get_next_action(all_discards, self.player_in_turn)
                     if (chosen == -1):
                         return
-                    # print("Se descartan:\n",all_discards[chosen])
                     for card in all_discards[chosen][1]:
                         if card == FOREST:
                             self.players[i].lumber -= 1
@@ -392,12 +281,6 @@ class Game:
                         else:
                             self.players[i].grain -= 1
                         self.players[i].resource_cards -= 1
-            # print("Las cartas de recursos de los jugadores después de descartarse son:")
-            # for player in self.players:
-            #     print(player.resource_cards, ": (", player.lumber, ", ", player.brick, ", ", player.wool, ", ", player.grain, ", ", player.ore, ")")
-            # print("Los puntos de victoria de los jugadores son:")
-            # for player in self.players:
-            #     print(player.vp)
 
             possible_actions_list = self.get_robber_options()
             option = self.get_next_action(possible_actions_list, self.player_in_turn)
@@ -423,12 +306,10 @@ class Game:
         is_longest = True
         if self.players[self.player_in_turn].longest_path > 4:
             for player in [s for s in self.players if s != self.players[self.player_in_turn]]:
-                # print("El jugador tiene: ", player.longest_path)
                 if player.longest_path >= self.players[self.player_in_turn].longest_path:
                     is_longest = False
                     break
             if (is_longest):
-                # print("Es el jugador que más carreteras tiene")
                 for player in self.players:
                     if player.road_bonus == True:
                         player.road_bonus = False
@@ -438,21 +319,13 @@ class Game:
 
 
     def search_expand(self,node):
-        # last = node[1] if len(node[1]) == 1 else node[1][-1]
         if node[1] == []:
             return [s for s in self.edges[node[0]].adjacents if self.edges[s].road == self.player_in_turn]
-        # print("Expandimos:")
-        # print(node[1])
-        # print(node[1][-1])
-        # print(self.edges[node[0]].adjacents)
-        # print(self.edges[node[1][-1]].adjacents)
         roads = []
         for i in self.edges[node[0]].adjacents:
-            # print("En el edge ", i, " hay una carretera ", self.edges[i].road)
             if i not in self.edges[node[1][-1]].adjacents and self.edges[i].road == self.player_in_turn:
                 roads += [i]
         return roads
-        # return [s for s in [self.edges[node[0]].adjacents not in self.edges[node[1][-1]].adjacents] if self.edges[s].road == self.player_in_turn]
 
     def depthFirstSearch(self, start):
         STATE = 0
@@ -466,13 +339,11 @@ class Game:
         while (not(frontier.isEmpty())):
             node = frontier.pop()
             if ((node[STATE] not in node[EXPANDED])):
-                # print("Analizando: ", node[STATE])
                 max_number = node[COST] if node[COST] > max_number else max_number
                 children = self.search_expand(node)
                 node[EXPANDED] += [node[STATE]]
                 for child in children:
                     new_node = [child, node[EXPANDED], node[COST] + 1]
-                    # print("Se introduce a la lista: ", child)
                     frontier.push(new_node)
         return max_number
     
@@ -493,7 +364,6 @@ class Game:
         is_port = self.corners[index].add_settlement(self.player_in_turn)
         if is_port != -1:
             self.players[self.player_in_turn].ports[is_port] = True
-        # print("Un punto de victoria más para el jugador: ", self.player_in_turn)
         self.players[self.player_in_turn].vp += 1
         self.players[self.player_in_turn].settlements_left -= 1
         if self.late_building_phase:
@@ -525,15 +395,6 @@ class Game:
         self.turn += 1
         self.player_in_turn = self.turn % 4
         self.trades_made = 0
-        print("\n##########################################")
-        print("Turno", self.turn, ". Le toca al jugador ", self.player_in_turn)
-        print("##########################################")
-        print("Las cartas de recursos de los jugadores son:")
-        for player in self.players:
-            print(player.resource_cards, ": (", player.lumber, ", ", player.brick, ", ", player.wool, ", ", player.grain, ", ", player.ore, ")")
-        print("Los puntos de victoria de los jugadores son:")
-        for player in self.players:
-            print(player.vp)
 
     def get_development_card(self, development_cards_left):
         rand_numb = random.randint(0,len(development_cards_left) - 1)
@@ -550,30 +411,21 @@ class Game:
 
     def get_all_discards(self,player_dest):
         all_resources = [FOREST]*self.players[player_dest].lumber + [HILLS]*self.players[player_dest].brick + [PASTURE]*self.players[player_dest].wool + [FIELDS]*self.players[player_dest].grain + [MOUNTAINS]*self.players[player_dest].ore
-        # print("Todos los recursos son:", all_resources)
         return Game.total_combinaciones(all_resources, len(all_resources)//2)
 
     def NNdecision(self, possible_actions_list, actiontypes, player):
-        print("Possible actions: ", possible_actions_list)
         common_inputs = [self.players[player].lumber, self.players[player].brick, self.players[player].ore, self.players[player].wool, self.players[player].grain]
-        # print("Solo las materias del jugador: ", common_inputs)
         common_inputs += [self.players[player].knights, self.players[player].road_building, self.players[player].year_of_plenty, self.players[player].monopoly]
-        # print("Ahora con las de progreso: ", common_inputs)
         for index in range(4):
             common_inputs += [self.players[index].resource_cards]
-        # print("Ahora con las de los demás jugadores: ", common_inputs)
         for tile in self.table.tiles:
             common_inputs += [tile.resource, tile.number, 1 if tile.robber else 0]
-        # print("Con las casillas: ", common_inputs)
         for corner in self.corners:
             common_inputs += [corner.building.building, corner.port]
-        # print("Con las encrucijadas: ", common_inputs)
         for edge in self.edges:
             common_inputs += [edge.road]
-        # print("Con las carreteras: ", common_inputs)
         for index in range(4):
             common_inputs += [self.players[index].longest_path, self.players[index].active_knights]
-        # print("Con los bonus: ", common_inputs)
         for index in range(4):
             common_inputs += [self.players[index].vp]
         red_inputs = []
@@ -582,22 +434,12 @@ class Game:
                 red_inputs += [1]
             else:
                 red_inputs += [0]
-        # print("Common_Inputs: ",common_inputs)
-        # print(len(common_inputs))
-        # print("Red_Inputs: ",red_inputs)
-        # print(len(red_inputs))
-        # print("Inputs: ", common_inputs + red_inputs)
-        # print("Inputs_length: ",len(common_inputs + red_inputs))
-        # while (len(type_possible) == 0):  Todavía no porque si no es bucle infinito
         type_probabilities = NN(self.red, common_inputs + red_inputs)
-        # print("Type_probabilities:",type_probabilities)
         type_possible = []
         while (len(type_possible) == 0):
             type_chosen = -1
-            # print("Max: ", type_probabilities.max())
             list_max = 0
             for i in range(len(type_probabilities)):
-                # print("Iteración ", i, ": ", type_probabilities[i])
                 if (type_probabilities[i] > list_max):
                     list_max = type_probabilities[i]
             for i in range(len(type_probabilities)):
@@ -606,33 +448,22 @@ class Game:
                     type_chosen = i
                     break
             if (type_chosen == -1):
-                # print("Ha habido un error al encontrar el máximo")
                 self.decision_failed = True
                 return -1
-            # print("Type_chosen",type_chosen)
-            # print("Next Type_probabilities",type_probabilities)
             for action in possible_actions_list:
-                # print("Action: ", action)
                 if type(action) == type(0) and type_chosen == action:
-                    # print("Type vs action: ", type_chosen, " vs ", action)
                     type_possible += [action]
                 elif type(action) == type(tuple()) and type_chosen == action[0]:
-                    # print("Type vs action[0]: ", type_chosen, " vs ", action[0])
                     type_possible += [action]
             if (type_chosen == DOMESTIC_TRADE):
                 if (self.trades_made > 4):
-                    # print("Ya hay muchos tradeos")
                     type_possible = []
-            # print("Type_chosen: ", type_chosen)
-            # print("Type possible: ", type_possible)
-            # print(type_possible)
         # if (len(type_possible) == 0):
         #     print("Type_possible esta vacio")
         #     self.decision_failed = True
         #     return -1
 
         action_chosen = type_possible[random.randint(0,len(type_possible)-1)]
-        # print(action_chosen)
         for i in range(0,len(possible_actions_list)):
             if action_chosen == possible_actions_list[i]:
                 return i
@@ -835,31 +666,20 @@ class Game:
         if len(prob_sum) == 0:
             return 0 if len(possible_actions_list) == 1 else random.randint(0,len(possible_actions_list)-1)
         type_chosen = prob_sum.pop(random.randint(0,len(prob_sum)-1))
-        # print(type_chosen)
         type_possible = []
-        # print("Analizando las posibles acciones\n", possible_actions_list)
         for action in possible_actions_list:
-            # print("Accion: ", action)
-            # print("El tipo es: ", type(action))
             if type(action) == type(0) and type_chosen == action:
-                # print("Se añade a type_chosen: ", action)
                 type_possible += [action]
             elif type(action) == type(tuple()) and type_chosen == action[0]:
-                # print("Se añade a type_chosen: ", action)
                 type_possible += [action]
-        # print("Type_possibleq queda así: ", type_possible)
         action_chosen = type_possible[random.randint(0,len(type_possible)-1)]
-        # print(action_chosen)
         for i in range(0,len(possible_actions_list)):
             if action_chosen == possible_actions_list[i]:
                 return i
         return -1
 
     def get_next_action(self, possible_actions_list, player):
-        # print(possible_actions_list)
-        # print("La primera opción es: ", possible_actions_list[0])
         if len(possible_actions_list) == 2 and type(possible_actions_list[0]) == type([]) and possible_actions_list[0][0] == ACCEPT_TRADE:
-            # print("Comprobando si es posible o no")
             if possible_actions_list[0][3] == FOREST:
                 if self.players[player].lumber < possible_actions_list[0][4]: return 1
             elif possible_actions_list[0][3] == HILLS:
@@ -873,9 +693,6 @@ class Game:
         chosen = 0
         actiontypes = set()
         for action in possible_actions_list:
-            # print(action)
-            # print(type(action))
-            # print(type(0))
             if type(action) == type(0):
                 actiontypes.update([action])
             else:
@@ -891,8 +708,6 @@ class Game:
         if len(all_resources) < 1:
             return
         chosen = 0 if len(all_resources) < 2 else random.randint(0,len(all_resources)-1)
-        # print("El jugador ", player_dest, " tiene ", len(all_resources), " cartas en la mano, se le ha robado la número ", chosen)
-        # print("El jugador ", self.player_in_turn, " ha robado al jugador ", player_dest, ". La carta que se ha robado es: ", all_resources[chosen])
         if all_resources[chosen] == FOREST:
             self.players[self.player_in_turn].lumber += 1
             self.players[player_dest].lumber -= 1
@@ -912,17 +727,13 @@ class Game:
         self.players[player_dest].resource_cards -= 1
 
     def check_knight_bonus(self):
-        # print("Comprobamos si hay que dar el bonus")
         if (self.players[self.player_in_turn].active_knights > 2):
-            # print("Caballeros mayor que 2, tiene: ", self.players[self.player_in_turn].active_knights)
             highest = True
             for player in [s for s in self.players if s != self.players[self.player_in_turn]]:
-                # print("El jugador tiene ", player.active_knights)
                 if player.active_knights >= self.players[self.player_in_turn].active_knights:
                     highest = False
                     break
             if (highest):
-                # print("Es el jugador que más tiene")
                 for player in self.players:
                     if player.knight_bonus == True:
                         player.knight_bonus = False
@@ -940,7 +751,6 @@ class Game:
             self.players[self.player_in_turn].wool -= 1
             self.players[self.player_in_turn].resource_cards -= 3
             card_type = self.get_development_card(self.development_cards_left)
-            # print("Al jugador ", self.player_in_turn, " le ha tocado la carta: ", card_type)
             if card_type == 0:
                 self.players[self.player_in_turn].knights += 1    
             elif card_type == 1:
@@ -965,25 +775,20 @@ class Game:
             for j in range(2):
                 for i in range(72):
                     if self.road_is_buildable(self.player_in_turn, i):
-                        # print("Es posible")
                         possible_roads += [(PLACE_FREE_ROAD,i)]
-                # print("Possible_roads:", possible_roads)
                 option = self.get_next_action(possible_roads, self.player_in_turn)
                 if (option == -1):
                     return
                 self.make_decision(possible_roads[option])
             self.players[self.player_in_turn].road_building -= 1
         elif(decision[0] == PLACE_ROAD):
-            # print("El jugador ", self.player_in_turn, " ha construido una carretera en la casilla", decision[1])
             self.players[self.player_in_turn].brick -= 1
             self.players[self.player_in_turn].lumber -= 1
             self.players[self.player_in_turn].resource_cards -= 2
             self.place_road(decision[1])
         elif(decision[0] == PLACE_FREE_ROAD):
-            # print("El jugador ", self.player_in_turn, " ha construido una carretera en la casilla", decision[1])
             self.place_road(decision[1])
         elif(decision[0] == PLACE_SETTLEMENT):
-            # print("El jugador ", self.player_in_turn, " ha construido un poblado")
             self.players[self.player_in_turn].brick -= 1
             self.players[self.player_in_turn].lumber -= 1
             self.players[self.player_in_turn].wool -= 1
@@ -991,7 +796,6 @@ class Game:
             self.players[self.player_in_turn].resource_cards -= 4
             self.place_settlement(decision[1])
         elif(decision[0] == PLACE_CITY):
-            # print("El jugador ", self.player_in_turn, " ha construido una ciudad")
             self.players[self.player_in_turn].ore -= 3
             self.players[self.player_in_turn].grain -= 2
             self.players[self.player_in_turn].resource_cards -= 5
@@ -1000,42 +804,35 @@ class Game:
             self.place_settlement(decision[1])
             self.place_road(decision[2])
         elif(decision[0] == PLACE_ROBBER):
-            # print("El jugador ", self.player_in_turn, " ha puesto el ladron en la casilla: ", decision[1])
             self.table.tiles[self.find_robber()].robber = False
             self.table.tiles[decision[1]].robber = True
             if len(decision) > 2:
                 self.steal_card(decision[2])
         elif(decision[0] == PLAY_MONOPOLY):
             total_resource = 0
-            # print("El recurso que se ha robado es: ", decision[1])
             for player in self.players:
                 if player != self.players[self.player_in_turn]:
                     if decision[1] == FOREST:
-                        # print("El jugador tenía ", player.lumber, " de madera.")
                         self.players[self.player_in_turn].lumber += player.lumber
                         self.players[self.player_in_turn].resource_cards += player.lumber
                         player.resource_cards -= player.lumber
                         player.lumber = 0
                     elif decision[1] == MOUNTAINS:
-                        # print("El jugador tenía ", player.ore, " de piedra.")
                         self.players[self.player_in_turn].ore += player.ore
                         self.players[self.player_in_turn].resource_cards += player.ore
                         player.resource_cards -= player.ore
                         player.ore = 0
                     elif decision[1] == HILLS:
-                        # print("El jugador tenía ", player.brick, " de arcilla.")
                         self.players[self.player_in_turn].brick += player.brick
                         self.players[self.player_in_turn].resource_cards += player.brick
                         player.resource_cards -= player.brick
                         player.brick = 0
                     elif decision[1] == PASTURE:
-                        # print("El jugador tenía ", player.wool, " de ovbeja.")
                         self.players[self.player_in_turn].wool += player.wool
                         self.players[self.player_in_turn].resource_cards += player.wool
                         player.resource_cards -= player.wool
                         player.wool = 0
                     else:
-                        # print("El jugador tenía ", player.grain, " de cereal.")
                         self.players[self.player_in_turn].grain += player.grain
                         self.players[self.player_in_turn].resource_cards += player.grain
                         player.resource_cards -= player.grain
@@ -1044,19 +841,14 @@ class Game:
         elif(decision[0] == PLAY_YEAR_OF_PLENTY):
             for resource in decision[1:]:
                 if decision[1] == FOREST:
-                    # print("El jugador obtiene 1 de madera.")
                     self.players[self.player_in_turn].lumber += 1
                 elif decision[1] == MOUNTAINS:
-                    # print("El jugador obtiene 1 de piedra.")
                     self.players[self.player_in_turn].ore += 1
                 elif decision[1] == HILLS:
-                    # print("El jugador obtiene 1 de arcilla.")
                     self.players[self.player_in_turn].brick += 1
                 elif decision[1] == PASTURE:
-                    # print("El jugador obtiene 1 de oveja.")
                     self.players[self.player_in_turn].wool += 1
                 else:
-                    # print("El jugador obtiene 1 de cereal.")
                     self.players[self.player_in_turn].grain += 1
             self.players[self.player_in_turn].resource_cards += 2
             self.players[self.player_in_turn].year_of_plenty -= 1
@@ -1067,102 +859,74 @@ class Game:
             if self.players[self.player_in_turn].ports[decision[1]] == True:
                     count = 2
             if decision[1] == FOREST:
-                # print("El jugador pierde ", count, " de madera.")
                 self.players[self.player_in_turn].lumber -= count
             elif decision[1] == MOUNTAINS:
-                # print("El jugador pierde ", count, " de piedra.")
                 self.players[self.player_in_turn].ore -= count
             elif decision[1] == HILLS:
-                # print("El jugador pierde ", count, " de arcilla.")
                 self.players[self.player_in_turn].brick -= count
             elif decision[1] == PASTURE:
-                # print("El jugador pierde ", count, " de oveja.")
                 self.players[self.player_in_turn].wool -= count
             else:
-                # print("El jugador pierde ", count, " de cereal.")
                 self.players[self.player_in_turn].grain -= count
             
             if decision[2] == FOREST:
-                # print("El jugador obtiene 1 de madera.")
                 self.players[self.player_in_turn].lumber += 1
             elif decision[2] == MOUNTAINS:
-                # print("El jugador obtiene 1 de piedra.")
                 self.players[self.player_in_turn].ore += 1
             elif decision[2] == HILLS:
-                # print("El jugador obtiene 1 de arcilla.")
                 self.players[self.player_in_turn].brick += 1
             elif decision[2] == PASTURE:
-                # print("El jugador obtiene 1 de oveja.")
                 self.players[self.player_in_turn].wool += 1
             else:
-                # print("El jugador obtiene 1 de cereal.")
                 self.players[self.player_in_turn].grain += 1
             self.players[self.player_in_turn].resource_cards -= count - 1
         
         elif(decision[0] == DOMESTIC_TRADE):
             possible_options = [tuple([DENY_TRADE] + list(decision[1:]))]
-            # print(possible_options)
             accepted = -1
             self.trades_made += 1
             for index in range(self.player_in_turn + 1,self.player_in_turn + 4):
                 player_dest = index % 4
                 if self.players[player_dest].able_to_trade(decision[3],decision[4]):
                     possible_options += [tuple([ACCEPT_TRADE] + list(decision[1:]))]
-                # print("player_dest: ", player_dest)
                 trading_decision = self.get_next_action(possible_options, player_dest)
                 if (trading_decision == -1):
                     return
                 is_accepted = possible_options[trading_decision]
-                # print(trading_decision)
                 if is_accepted[0] == ACCEPT_TRADE:
-                    # print("Trade accepted by: ", player_dest)
                     accepted = player_dest
                     break
                 possible_options = [tuple([DENY_TRADE] + list(decision[1:]))]
             if accepted != -1:
-                # print("Making trade")
                 if decision[1] == FOREST:
-                    # print("El jugador pierde ", decision[2], " de madera.")
                     self.players[self.player_in_turn].lumber -= decision[2]
                     self.players[accepted].lumber += decision[2]
                 elif decision[1] == MOUNTAINS:
-                    # print("El jugador pierde ", decision[2], " de piedra.")
                     self.players[self.player_in_turn].ore -= decision[2]
                     self.players[accepted].ore += decision[2]
                 elif decision[1] == HILLS:
-                    # print("El jugador pierde ", decision[2], " de arcilla.")
                     self.players[self.player_in_turn].brick -= decision[2]
                     self.players[accepted].brick += decision[2]
                 elif decision[1] == PASTURE:
-                    # print("El jugador pierde ", decision[2], " de oveja.")
                     self.players[self.player_in_turn].wool -= decision[2]
                     self.players[accepted].wool += decision[2]
                 else:
-                    # print("El jugador pierde ", decision[2], " de cereal.")
                     self.players[self.player_in_turn].grain -= decision[2]
                     self.players[accepted].grain += decision[2]
 
                 if decision[3] == FOREST:
-                    # print("El jugador obtiene decision[4] de madera.")
                     self.players[self.player_in_turn].lumber += decision[4]
                     self.players[accepted].lumber -= decision[4]
                 elif decision[3] == MOUNTAINS:
-                    # print("El jugador obtiene decision[4] de piedra.")
                     self.players[self.player_in_turn].ore += decision[4]
                     self.players[accepted].ore -= decision[4]
                 elif decision[3] == HILLS:
-                    # print("El jugador obtiene decision[4] de arcilla.")
                     self.players[self.player_in_turn].brick += decision[4]
                     self.players[accepted].brick -= decision[4]
                 elif decision[3] == PASTURE:
-                    # print("El jugador obtiene decision[4] de oveja.")
                     self.players[self.player_in_turn].wool += decision[4]
                     self.players[accepted].wool -= decision[4]
                 else:
-                    # print("El jugador obtiene decision[4] de cereal.")
                     self.players[self.player_in_turn].grain += decision[4]
                     self.players[accepted].grain -= decision[4]
-        print("Las cartas de recursos de los jugadores después de realizar la acción son:")
-        for player in self.players:
-            print(player.resource_cards, ": (", player.lumber, ", ", player.brick, ", ", player.wool, ", ", player.grain, ", ", player.ore, ")")
                 

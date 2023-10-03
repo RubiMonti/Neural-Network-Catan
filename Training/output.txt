@@ -1,0 +1,3451 @@
+pygame 2.1.2 (SDL 2.0.16, Python 3.10.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Se acabó la partida
+Result:  [9, 0]
+La recompensa de esta partida es:  -10
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  1
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [11, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  2
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : -10
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  3
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : -10
+############################################
+Se acabó la partida
+Result:  [10, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  4
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : -10
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  5
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  6
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  7
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [10, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  8
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  9
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+############################################
+	Generation :  10
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  11
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  12
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  13
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  14
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  15
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+############################################
+	Generation :  16
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  17
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  18
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+############################################
+	Generation :  19
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  21
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  22
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  23
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  24
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  25
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  26
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+############################################
+	Generation :  27
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  28
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [10, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  29
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  30
+Se acabó la partida
+Result:  [10, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+############################################
+	Generation :  31
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  32
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  33
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  34
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  35
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  36
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  37
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [9, 0]
+La recompensa de esta partida es:  -10
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+############################################
+	Generation :  38
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  39
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  41
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  42
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  43
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  44
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  45
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  46
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  47
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+############################################
+	Generation :  48
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  49
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  51
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  52
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  53
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  54
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+############################################
+	Generation :  55
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [10, 0]
+La recompensa de esta partida es:  250
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+############################################
+	Generation :  56
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  57
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [7, 0]
+La recompensa de esta partida es:  -30
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [9, 0]
+La recompensa de esta partida es:  -10
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [8, 0]
+La recompensa de esta partida es:  -20
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+############################################
+	Generation :  58
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+	Fitness of the best solution : 250
+############################################
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [5, 0]
+La recompensa de esta partida es:  -50
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [6, 0]
+La recompensa de esta partida es:  -40
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+############################################
+	Generation :  59
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [3, 0]
+La recompensa de esta partida es:  -70
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [2, 0]
+La recompensa de esta partida es:  -80
+Se acabó la partida
+Result:  [4, 0]
+La recompensa de esta partida es:  -60
+Se acabó la partida
+Result:  [2, 0]

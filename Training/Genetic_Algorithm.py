@@ -31,7 +31,7 @@ def on_gen(ga_instance):
     print("\tFitness of the best solution :", ga_instance.best_solution()[1])
     print("############################################")
 
-ga_instance = pg.GA(num_generations=100,
+ga_instance = pg.GA(num_generations=10000,
                        num_parents_mating=5,
                        fitness_func=fitness_function_GA_NN,
                        sol_per_pop=10,
