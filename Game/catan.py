@@ -69,7 +69,6 @@ def game_of_catan(red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,r
         pygame.display.update()
 
     for i in range(len(game.players)):
-        print("El jugador ", i, " ha acabado con ", game.players[i].vp + game.players[i].vp_cards, " puntos de victoria.")
     while True:
         time.sleep(0.05)
         for event in pygame.event.get():
@@ -78,9 +77,15 @@ def game_of_catan(red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,r
                 quit()
 
 if __name__ == '__main__':
+    if (len(sys.argv) == 2):
+        args_file = sys.argv[1]
+    elif (len(sys.argv) > 2):
+        print("Bad input. Usage: python3 catan.py [File with Neural Weights]")
+    else:
+        args_file = "TrainedNetArguments.txt"
     arguments = []
     try:
-        with open("TrainedNetArguments.txt") as file:
+        with open(args_file) as file:
             for line in file:
                 arguments += [float(line)]
         print(arguments)
@@ -89,29 +94,3 @@ if __name__ == '__main__':
         sys.exit(-1)
     red = CreateNN.CreateNN(arguments, [4,10],279,17)
     game_of_catan(red,0,0,0,0,0,0,0,0,0,0)
-
-
-"""
-# TODO: Crear función que cuente el número de parámetros que hacen falta 
-# para una red dada su tamaño y sus entradas y salidas
-coeficientes = []
-for i in range(150000):
-    coeficientes +=[i]
-red = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_1 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_2 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_3 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_5 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_7 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_8 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_10 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_11 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_12 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-red_16 = CreateNN.CreateNN(coeficientes, [150,80,8],279,1)
-game_of_catan(red,red_1,red_2,red_3,red_5,red_7,red_8,red_10,red_11,red_12,red_16)
-"""
-"""
-for i in range(100):
-    game_of_catan(0,0,0,0,0,0,0,0,0,0,0,0)
-    print("##########\n\tGame ", i, "finished\n##########")
-"""

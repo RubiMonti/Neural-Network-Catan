@@ -487,15 +487,6 @@ class Game:
         self.turn += 1
         self.player_in_turn = self.turn % 4
         self.trades_made = 0
-        print("\n##########################################")
-        print("Turno", self.turn, ". Le toca al jugador ", self.player_in_turn)
-        print("##########################################")
-        print("Las cartas de recursos de los jugadores son:")
-        for player in self.players:
-            print(player.resource_cards, ": (", player.lumber, ", ", player.brick, ", ", player.wool, ", ", player.grain, ", ", player.ore, ")")
-        print("Los puntos de victoria de los jugadores son:")
-        for player in self.players:
-            print(player.vp)
 
     def get_development_card(self, development_cards_left):
         rand_numb = random.randint(0,len(development_cards_left) - 1)
@@ -848,7 +839,6 @@ class Game:
             self.players[self.player_in_turn].wool -= 1
             self.players[self.player_in_turn].resource_cards -= 3
             card_type = self.get_development_card(self.development_cards_left)
-            print("Al jugador ", self.player_in_turn, " le ha tocado la carta: ", card_type)
             if card_type == 0:
                 self.players[self.player_in_turn].knights += 1    
             elif card_type == 1:
@@ -873,25 +863,20 @@ class Game:
             for j in range(2):
                 for i in range(72):
                     if self.road_is_buildable(self.player_in_turn, i):
-                        print("Es posible")
                         possible_roads += [(PLACE_FREE_ROAD,i)]
-                print("Possible_roads:", possible_roads)
                 option = self.get_next_action(possible_roads, self.player_in_turn)
                 if (option == -1):
                     return
                 self.make_decision(possible_roads[option])
             self.players[self.player_in_turn].road_building -= 1
         elif(decision[0] == PLACE_ROAD):
-            print("El jugador ", self.player_in_turn, " ha construido una carretera en la casilla", decision[1])
             self.players[self.player_in_turn].brick -= 1
             self.players[self.player_in_turn].lumber -= 1
             self.players[self.player_in_turn].resource_cards -= 2
             self.place_road(decision[1])
         elif(decision[0] == PLACE_FREE_ROAD):
-            print("El jugador ", self.player_in_turn, " ha construido una carretera en la casilla", decision[1])
             self.place_road(decision[1])
         elif(decision[0] == PLACE_SETTLEMENT):
-            print("El jugador ", self.player_in_turn, " ha construido un poblado")
             self.players[self.player_in_turn].brick -= 1
             self.players[self.player_in_turn].lumber -= 1
             self.players[self.player_in_turn].wool -= 1
@@ -899,7 +884,6 @@ class Game:
             self.players[self.player_in_turn].resource_cards -= 4
             self.place_settlement(decision[1])
         elif(decision[0] == PLACE_CITY):
-            print("El jugador ", self.player_in_turn, " ha construido una ciudad")
             self.players[self.player_in_turn].ore -= 3
             self.players[self.player_in_turn].grain -= 2
             self.players[self.player_in_turn].resource_cards -= 5
@@ -908,42 +892,35 @@ class Game:
             self.place_settlement(decision[1])
             self.place_road(decision[2])
         elif(decision[0] == PLACE_ROBBER):
-            print("El jugador ", self.player_in_turn, " ha puesto el ladron en la casilla: ", decision[1])
             self.table.tiles[self.find_robber()].robber = False
             self.table.tiles[decision[1]].robber = True
             if len(decision) > 2:
                 self.steal_card(decision[2])
         elif(decision[0] == PLAY_MONOPOLY):
             total_resource = 0
-            print("El recurso que se ha robado es: ", decision[1])
             for player in self.players:
                 if player != self.players[self.player_in_turn]:
                     if decision[1] == FOREST:
-                        print("El jugador tenía ", player.lumber, " de madera.")
                         self.players[self.player_in_turn].lumber += player.lumber
                         self.players[self.player_in_turn].resource_cards += player.lumber
                         player.resource_cards -= player.lumber
                         player.lumber = 0
                     elif decision[1] == MOUNTAINS:
-                        print("El jugador tenía ", player.ore, " de piedra.")
                         self.players[self.player_in_turn].ore += player.ore
                         self.players[self.player_in_turn].resource_cards += player.ore
                         player.resource_cards -= player.ore
                         player.ore = 0
                     elif decision[1] == HILLS:
-                        print("El jugador tenía ", player.brick, " de arcilla.")
                         self.players[self.player_in_turn].brick += player.brick
                         self.players[self.player_in_turn].resource_cards += player.brick
                         player.resource_cards -= player.brick
                         player.brick = 0
                     elif decision[1] == PASTURE:
-                        print("El jugador tenía ", player.wool, " de ovbeja.")
                         self.players[self.player_in_turn].wool += player.wool
                         self.players[self.player_in_turn].resource_cards += player.wool
                         player.resource_cards -= player.wool
                         player.wool = 0
                     else:
-                        print("El jugador tenía ", player.grain, " de cereal.")
                         self.players[self.player_in_turn].grain += player.grain
                         self.players[self.player_in_turn].resource_cards += player.grain
                         player.resource_cards -= player.grain
@@ -952,19 +929,14 @@ class Game:
         elif(decision[0] == PLAY_YEAR_OF_PLENTY):
             for resource in decision[1:]:
                 if decision[1] == FOREST:
-                    print("El jugador obtiene 1 de madera.")
                     self.players[self.player_in_turn].lumber += 1
                 elif decision[1] == MOUNTAINS:
-                    print("El jugador obtiene 1 de piedra.")
                     self.players[self.player_in_turn].ore += 1
                 elif decision[1] == HILLS:
-                    print("El jugador obtiene 1 de arcilla.")
                     self.players[self.player_in_turn].brick += 1
                 elif decision[1] == PASTURE:
-                    print("El jugador obtiene 1 de oveja.")
                     self.players[self.player_in_turn].wool += 1
                 else:
-                    print("El jugador obtiene 1 de cereal.")
                     self.players[self.player_in_turn].grain += 1
             self.players[self.player_in_turn].resource_cards += 2
             self.players[self.player_in_turn].year_of_plenty -= 1
@@ -975,99 +947,74 @@ class Game:
             if self.players[self.player_in_turn].ports[decision[1]] == True:
                     count = 2
             if decision[1] == FOREST:
-                print("El jugador pierde ", count, " de madera.")
                 self.players[self.player_in_turn].lumber -= count
             elif decision[1] == MOUNTAINS:
-                print("El jugador pierde ", count, " de piedra.")
                 self.players[self.player_in_turn].ore -= count
             elif decision[1] == HILLS:
-                print("El jugador pierde ", count, " de arcilla.")
                 self.players[self.player_in_turn].brick -= count
             elif decision[1] == PASTURE:
-                print("El jugador pierde ", count, " de oveja.")
                 self.players[self.player_in_turn].wool -= count
             else:
-                print("El jugador pierde ", count, " de cereal.")
                 self.players[self.player_in_turn].grain -= count
             
             if decision[2] == FOREST:
-                print("El jugador obtiene 1 de madera.")
                 self.players[self.player_in_turn].lumber += 1
             elif decision[2] == MOUNTAINS:
-                print("El jugador obtiene 1 de piedra.")
                 self.players[self.player_in_turn].ore += 1
             elif decision[2] == HILLS:
-                print("El jugador obtiene 1 de arcilla.")
                 self.players[self.player_in_turn].brick += 1
             elif decision[2] == PASTURE:
-                print("El jugador obtiene 1 de oveja.")
                 self.players[self.player_in_turn].wool += 1
             else:
-                print("El jugador obtiene 1 de cereal.")
                 self.players[self.player_in_turn].grain += 1
             self.players[self.player_in_turn].resource_cards -= count - 1
         
         elif(decision[0] == DOMESTIC_TRADE):
             possible_options = [tuple([DENY_TRADE] + list(decision[1:]))]
-            print(possible_options)
             accepted = -1
             self.trades_made += 1
             for index in range(self.player_in_turn + 1,self.player_in_turn + 4):
                 player_dest = index % 4
                 if self.players[player_dest].able_to_trade(decision[3],decision[4]):
                     possible_options += [tuple([ACCEPT_TRADE] + list(decision[1:]))]
-                print("player_dest: ", player_dest)
                 trading_decision = self.get_next_action(possible_options, player_dest)
                 if (trading_decision == -1):
                     return
                 is_accepted = possible_options[trading_decision]
-                print(trading_decision)
                 if is_accepted[0] == ACCEPT_TRADE:
-                    print("Trade accepted by: ", player_dest)
                     accepted = player_dest
                     break
                 possible_options = [tuple([DENY_TRADE] + list(decision[1:]))]
             if accepted != -1:
-                print("Making trade")
                 if decision[1] == FOREST:
-                    print("El jugador pierde ", decision[2], " de madera.")
                     self.players[self.player_in_turn].lumber -= decision[2]
                     self.players[accepted].lumber += decision[2]
                 elif decision[1] == MOUNTAINS:
-                    print("El jugador pierde ", decision[2], " de piedra.")
                     self.players[self.player_in_turn].ore -= decision[2]
                     self.players[accepted].ore += decision[2]
                 elif decision[1] == HILLS:
-                    print("El jugador pierde ", decision[2], " de arcilla.")
                     self.players[self.player_in_turn].brick -= decision[2]
                     self.players[accepted].brick += decision[2]
                 elif decision[1] == PASTURE:
-                    print("El jugador pierde ", decision[2], " de oveja.")
                     self.players[self.player_in_turn].wool -= decision[2]
                     self.players[accepted].wool += decision[2]
                 else:
-                    print("El jugador pierde ", decision[2], " de cereal.")
                     self.players[self.player_in_turn].grain -= decision[2]
                     self.players[accepted].grain += decision[2]
 
                 if decision[3] == FOREST:
-                    print("El jugador obtiene ", decision[4], " de madera.")
                     self.players[self.player_in_turn].lumber += decision[4]
                     self.players[accepted].lumber -= decision[4]
                 elif decision[3] == MOUNTAINS:
-                    print("El jugador obtiene ", decision[4], " de piedra.")
                     self.players[self.player_in_turn].ore += decision[4]
                     self.players[accepted].ore -= decision[4]
                 elif decision[3] == HILLS:
-                    print("El jugador obtiene ", decision[4], " de arcilla.")
                     self.players[self.player_in_turn].brick += decision[4]
                     self.players[accepted].brick -= decision[4]
                 elif decision[3] == PASTURE:
-                    print("El jugador obtiene ", decision[4], " de oveja.")
                     self.players[self.player_in_turn].wool += decision[4]
                     self.players[accepted].wool -= decision[4]
                 else:
-                    print("El jugador obtiene ", decision[4], " de cereal.")
                     self.players[self.player_in_turn].grain += decision[4]
                     self.players[accepted].grain -= decision[4]
                 

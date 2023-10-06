@@ -30,12 +30,10 @@ def CreateNN(wb, num_neuronas_ocultas, num_entradas, num_neuronas_salida):
         - NUM_ENTRADAS: numero de entradas de la red_neuronal
         - NUM_NEURONAS_SALIDA: numero de salidas de la red neuronal
     """
-
     # Contador que irá recorriendo el vector de pesos y terminos independientes
     cont = 0
     num_capas = len(num_neuronas_ocultas)
     red = []
-    # print("Neuronas ocultas",num_neuronas_ocultas)
     for i in range(num_capas):
         if i == 0:
             red += [Capa(num_neuronas_ocultas[i], num_entradas)]
@@ -44,14 +42,10 @@ def CreateNN(wb, num_neuronas_ocultas, num_entradas, num_neuronas_salida):
         else:
             red += [Capa(num_neuronas_ocultas[i], num_neuronas_ocultas[i-1])]
         to_fill = red[i].size_W()
-        # print("Contador",cont)
         red[i].fill_W(wb[cont:cont + to_fill])
         cont += to_fill
-        # print("Contador",cont)
         to_fill = red[i].size_B()
         red[i].fill_B(wb[cont:cont + to_fill])
         cont += to_fill
     
     return red
-
-# CreateNN([1,1,2,1,131,2,3,4,5,6,1,1,1,1,1,6,1],[3,2],2,2)

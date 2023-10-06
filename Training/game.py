@@ -742,8 +742,6 @@ class Game:
                 self.players[self.player_in_turn].vp += 2
 
     def make_decision(self, decision):
-        if self.turn > 200:
-            print("Se ha realizado la acción: ", decision)
         if (decision == SKIP_TURN):
             self.next_turn()
             self.roll_dice()

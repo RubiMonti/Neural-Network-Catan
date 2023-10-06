@@ -5,12 +5,6 @@ import tensorflow as tf
 import pygad as pg
 from fitness_function import fitness_function_GA_NN 
 
-"""
-d = 300000 #Número de entradas
-p1 = 1 #Número de neuronas de la capa oculta
-p2 = 1 #Número de neuronas de la capa de salida
-"""
-
 NVARS = 1205
 
 # num_genes = #Número de variables a encontrar 
@@ -55,6 +49,3 @@ with open('Best_solution.txt', 'w') as f:
     for i in range(len(x)):
         f.write(str(x[i]))
         f.write("\n")
-
-
-print('finish')
