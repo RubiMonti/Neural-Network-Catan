@@ -37,4 +37,4 @@ def game_of_catan(red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,r
             continue
         game.make_decision(possible_actions_list[int(decision)])
 
-    return [game.players[0].vp + game.players[0].vp_cards, game.recompensa]
+    return game.players[0].vp + game.players[0].vp_cards

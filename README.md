@@ -3,6 +3,14 @@ The settlers of Catan is a very popular board game based in building and coloniz
 
 In this project, a neural network is trained to play the game and try to win the most games as possible. The project is divided in two parts, the training of the neural network and the execution of the game itself. 
 
+## Explanation of the proyect
+
+The goal of this project is to:
+    - Build a simulator that can execute the game of catan and all variables and information are available to the player at any moment during the game.
+    - Create an artificial intelligence able to beat 3 players whose actions are chosen randomly.
+
+For more information, read the paper located in the base directory of this repositoy.
+
 ## How to use the project
 
 *This tutorial is for Linux users with python 3 installed*
@@ -13,7 +21,15 @@ First of all, clone this repository in your local machine.
 git clone https://github.com/RubiMonti/Neural-Network-Catan.git
 ```
 
-Afterwards, everything is ready to run, access the repository and execute the following commands to execute the game with the trained agent:
+Afterwards, check if the modules needed are installed:
+```
+# Verify if it is installed
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+# If it is not installed, the following command must install the module
+python3 -m pip install tensorflow
+```
+
+If it is up to date, everything is ready to run, access the repository and execute the following commands to execute the game with the trained agent:
 
 ```
 cd Game

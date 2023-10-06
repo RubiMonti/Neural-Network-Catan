@@ -31,8 +31,8 @@ def on_gen(ga_instance):
     print("\tFitness of the best solution :", ga_instance.best_solution()[1])
     print("############################################")
 
-ga_instance = pg.GA(num_generations=10000,
-                       num_parents_mating=5,
+ga_instance = pg.GA(num_generations=100,
+                       num_parents_mating=2,
                        fitness_func=fitness_function_GA_NN,
                        sol_per_pop=10,
                        num_genes=NVARS,
@@ -47,7 +47,7 @@ ga_instance = pg.GA(num_generations=10000,
 
 ga_instance.run()
 ga_instance.save("Catan")
-# ga_instance.plot_fitness()
+ga_instance.plot_fitness()
 
 x, x_fitness, x_idx = ga_instance.best_solution()
 print('Solución: ' + str(x))
