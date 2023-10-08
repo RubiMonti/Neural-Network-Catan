@@ -90,7 +90,7 @@ class Player:
                 actions += [(BUY_RESOURCE_CARD)]
             if (self.knights > 0):
                 actions += [(PLAY_KNIGHT)]
-            if (self.road_building > 0):
+            if (self.road_building > 0 and self.roads_left > 1):
                 for i in range(72):
                     if game.road_is_buildable(game.player_in_turn, i):
                         actions += [(PLAY_ROADS)]
@@ -194,7 +194,7 @@ class Game:
         self.players_sockets = players_sockets
 
     def game_finished(self):
-        if self.decision_failed:
+        if self.decision_failed or self.turn > 1000:
             return True
         is_win = False
         for player in self.players:
