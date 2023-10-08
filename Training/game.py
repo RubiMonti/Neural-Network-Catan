@@ -267,7 +267,10 @@ class Game:
                     for j in range(len(all_possibilites)):
                         all_discards += [(DISCARD, all_possibilites[j])]
                     chosen = self.get_next_action(all_discards, self.player_in_turn)
+                    if (self.players[i].resource_cards > 20):
+                        print("Las cartas del jugador ", i, " antes del descarte son: ", self.players[i].resource_cards, ". ( ", self.players[i].lumber, ", ", self.players[i].brick, ", ", self.players[i].wool, ", ", self.players[i].grain, ", ", self.players[i].ore, " )")
                     if (chosen == -1):
+                        print("Chosen = -1")
                         return
                     for card in all_discards[chosen][1]:
                         if card == FOREST:
@@ -281,6 +284,8 @@ class Game:
                         else:
                             self.players[i].grain -= 1
                         self.players[i].resource_cards -= 1
+                    if (self.players[i].resource_cards > 20):
+                        print("Las cartas del jugador ", i, " después del descarte son: ", self.players[i].resource_cards, ". ( ", self.players[i].lumber, ", ", self.players[i].brick, ", ", self.players[i].wool, ", ", self.players[i].grain, ", ", self.players[i].ore, " )")
 
             possible_actions_list = self.get_robber_options()
             option = self.get_next_action(possible_actions_list, self.player_in_turn)
@@ -395,6 +400,13 @@ class Game:
         self.turn += 1
         self.player_in_turn = self.turn % 4
         self.trades_made = 0
+        if (self.turn > 1000):
+            print("############################\n\t Turn: ", self.turn, "\n##########################")
+            print("Player in turn: ", self.player_in_turn)
+            for i in self.players:
+                print("El jugador tiene las siguientes cartas en la mano: ", i.resource_cards, "\t( ", i.lumber, " , ", i.brick, " , ", i.wool, " , ", i.grain, " , ", i.ore, " )")
+                print("Tiene ", i.roads_left, " carreteras, ", i.settlements_left, " poblados y ", i.cities_left, "ciudades restantes")
+                print("Tiene ", i.vp, " puntos de victoria y ", i.vp_cards, " cartas de PV")
 
     def get_development_card(self, development_cards_left):
         rand_numb = random.randint(0,len(development_cards_left) - 1)
@@ -411,6 +423,8 @@ class Game:
 
     def get_all_discards(self,player_dest):
         all_resources = [FOREST]*self.players[player_dest].lumber + [HILLS]*self.players[player_dest].brick + [PASTURE]*self.players[player_dest].wool + [FIELDS]*self.players[player_dest].grain + [MOUNTAINS]*self.players[player_dest].ore
+        if (len(all_resources) > 20):
+            print("El jugador ", player_dest, " tiene ", len(all_resources), " cartas en la mano")
         return Game.total_combinaciones(all_resources, len(all_resources)//2)
 
     def NNdecision(self, possible_actions_list, actiontypes, player):
@@ -679,6 +693,8 @@ class Game:
         return -1
 
     def get_next_action(self, possible_actions_list, player):
+        if (self.turn > 1000):
+            print(possible_actions_list)
         if len(possible_actions_list) == 2 and type(possible_actions_list[0]) == type([]) and possible_actions_list[0][0] == ACCEPT_TRADE:
             if possible_actions_list[0][3] == FOREST:
                 if self.players[player].lumber < possible_actions_list[0][4]: return 1
@@ -742,6 +758,8 @@ class Game:
                 self.players[self.player_in_turn].vp += 2
 
     def make_decision(self, decision):
+        if (self.turn > 1000):
+            print("La decisión que se ha tomado es: ", decision)
         if (decision == SKIP_TURN):
             self.next_turn()
             self.roll_dice()

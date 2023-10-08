@@ -92,7 +92,7 @@ class Player:
                 actions += [(BUY_RESOURCE_CARD)]
             if (self.knights > 0):
                 actions += [(PLAY_KNIGHT)]
-            if (self.road_building > 0):
+            if (self.road_building > 0 and self.roads_left > 1):
                 for i in range(72):
                     if game.road_is_buildable(game.player_in_turn, i):
                         actions += [(PLAY_ROADS)]
@@ -234,7 +234,7 @@ class Game:
         self.players_sockets = players_sockets
 
     def game_finished(self):
-        if self.decision_failed:
+        if self.decision_failed or self.turn > 1000:
             return True
         is_win = False
         for player in self.players:
@@ -322,8 +322,6 @@ class Game:
                             else:
                                 self.players[corner.building.player].grain += 1
                             self.players[corner.building.player].resource_cards += 1
-        for i in range(len(self.players)):
-            self.players[i].print_stats()
     
     def find_robber(self):
         for i in range(19):
@@ -786,6 +784,8 @@ class Game:
             else:
                 if not (action[0] == DOMESTIC_TRADE and self.trades_made > 4):
                     actiontypes.update([action[0]])
+        print("La lista de posibles acciones es:\n", possible_actions_list)
+        print("La lista de tipos de acciones es:\n", actiontypes)
         if player == 0:
             return self.NNdecision(possible_actions_list, actiontypes, player)
         else:

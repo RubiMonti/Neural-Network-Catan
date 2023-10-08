@@ -68,7 +68,6 @@ def game_of_catan(red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,r
         game.print_game()
         pygame.display.update()
 
-    for i in range(len(game.players)):
     while True:
         time.sleep(0.05)
         for event in pygame.event.get():
