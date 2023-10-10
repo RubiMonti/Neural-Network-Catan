@@ -43,10 +43,7 @@ def fitness_function_GA_NN(instance,x,x_idx):
     for i in range(100):
         result = catan.game_of_catan(red,red_1,red_2,red_3,red_5,red_7,red_8,red_10,red_11,red_12,red_16)
         if (result > 9):
+            print("La recompensa de esta solución es: ", recompensa)
             recompensa += 1
-            print("La recompensa de esta partida es: ", recompensa)
-        #else:
-        #    recompensa -= (10 - result)
-
-        
+    print("La recompensa de esta solución es: ", recompensa)
     return recompensa

@@ -784,8 +784,6 @@ class Game:
             else:
                 if not (action[0] == DOMESTIC_TRADE and self.trades_made > 4):
                     actiontypes.update([action[0]])
-        print("La lista de posibles acciones es:\n", possible_actions_list)
-        print("La lista de tipos de acciones es:\n", actiontypes)
         if player == 0:
             return self.NNdecision(possible_actions_list, actiontypes, player)
         else:

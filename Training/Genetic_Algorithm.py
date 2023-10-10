@@ -22,16 +22,18 @@ NVARS = 1205
 def on_gen(ga_instance):
     print("############################################")
     print("\tGeneration : ", ga_instance.generations_completed)
+    ga_instance.save("Partial_Solution")
+    ga_instance.plot_fitness()
     print("\tFitness of the best solution :", ga_instance.best_solution()[1])
     print("############################################")
 
 ga_instance = pg.GA(num_generations=100,
-                       num_parents_mating=2,
+                       num_parents_mating=5,
                        fitness_func=fitness_function_GA_NN,
                        sol_per_pop=10,
                        num_genes=NVARS,
-                       init_range_low=-4,
-                       init_range_high=4,
+                       init_range_low=-1000,
+                       init_range_high=1000,
                        parent_selection_type="rank",
                        keep_parents=1,
                        crossover_type="single_point",
