@@ -200,6 +200,7 @@ class Game:
         for player in self.players:
             if (player.vp + player.vp_cards) > 9:
                 is_win = True
+                # print("Se acabó la partida")
         return is_win
 
     def deal_cards(self, result):
@@ -393,6 +394,12 @@ class Game:
         self.turn += 1
         self.player_in_turn = self.turn % 4
         self.trades_made = 0
+        # print("############################\n\t Turn: ", self.turn, "\n##########################")
+        # print("Player in turn: ", self.player_in_turn)
+        # for i in self.players:
+        #     print("El jugador tiene las siguientes cartas en la mano: ", i.resource_cards, "\t( ", i.lumber, " , ", i.brick, " , ", i.wool, " , ", i.grain, " , ", i.ore, " )")
+        #     print("Tiene ", i.roads_left, " carreteras, ", i.settlements_left, " poblados y ", i.cities_left, "ciudades restantes")
+        #     print("Tiene ", i.vp, " puntos de victoria y ", i.vp_cards, " cartas de PV")
         
     def get_development_card(self, development_cards_left):
         rand_numb = random.randint(0,len(development_cards_left) - 1)
@@ -436,13 +443,13 @@ class Game:
         type_possible = []
         while (len(type_possible) == 0):
             type_chosen = -1
-            list_max = 0
+            list_max = -1
             for i in range(len(type_probabilities)):
                 if (type_probabilities[i] > list_max):
                     list_max = type_probabilities[i]
             for i in range(len(type_probabilities)):
                 if (type_probabilities[i] == list_max):
-                    type_probabilities[i] = 0
+                    type_probabilities[i] = -1
                     type_chosen = i
                     break
             if (type_chosen == -1):
