@@ -26,10 +26,7 @@ git clone https://github.com/RubiMonti/Neural-Network-Catan.git
 
 Afterwards, check if the modules needed are installed:
 ```
-# Verify if it is installed
-python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-# If it is not installed, the following command must install the module
-python3 -m pip install tensorflow
+pip3 install pygad
 ```
 
 If it is up to date, everything is ready to run, access the repository and execute the following commands to execute the game with the trained agent:
@@ -39,4 +36,14 @@ cd Game
 python3 catan.py
 ```
 
-A window must pop up and the game shall begin. You can pause the game pressing the 'p' key and continue ir by pressing the same button again. When the game end, just close the window to end the program.
+You can also train the agent and introduced the new arguments in the simulation. The process of obtaining new arguments is very long (aproximately 16 hours) so make sure you have some spare time:
+
+```
+cd Training
+python3 Genetic_Algorithm.py
+mv Best_solution.txt ../Game/
+cd ../Game/
+python3 catan.py Best_solution.txt
+```
+
+A window must pop up and the game shall begin. You can pause the game pressing the 'p' key and continue it by pressing the same button again. When the game ends, just close the window to end the program.
