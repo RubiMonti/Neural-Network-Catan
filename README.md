@@ -8,12 +8,8 @@ In this project, a simulation of the game is creted in order to provide a neural
 ## Explanation of the proyect
 
 The goal of this project is to:
-
-
-    - Build a simulator that can execute the game of catan and all variables and information are available to the player at any moment during the game.
-
-
-    -Create an artificial intelligence able to beat 3 players whose actions are chosen randomly.
+    * Build a simulator that can execute the game of catan and all variables and information are available to the player at any moment during the game.
+    * Create an artificial intelligence able to beat 3 players whose actions are chosen randomly.
 
 For more information, read the paper located at the base directory of this repositoy.
 
