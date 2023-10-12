@@ -9,15 +9,14 @@ if __name__ == '__main__':
             with open(filename) as file:
                 for line in file:
                     arguments += [float(line)]
-            print(arguments)
         except:
             print("Algo ha salido mal")
             sys.exit(-1)
         red = CreateNN.CreateNN(arguments, [4,10],279,17)
         wins = 0
-        for i in range(100):
-            result = catan.game_of_catan(red,0,0,0,0,0,0,0,0,0,0)
-            print(result)
-            if result[0] == 10:
+        total_games = 1000
+        for i in range(total_games):
+            result = catan.game_of_catan(red)
+            if result == 10:
                 wins += 1
-        print("El programa ha tenido un porcentaje de ", wins, "/100.")
+        print("El programa ha tenido un porcentaje de ", wins, "/", total_games)
