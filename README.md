@@ -1,7 +1,9 @@
 # Neural-Network-Catan
 The settlers of Catan is a very popular board game based in building and colonizing the island of Catan. Created by Klaus Teuber, this game has sold millions of copies in more than 15 languages all over the world.
 
-In this project, a neural network is trained to play the game and try to win the most games as possible. The project is divided in two parts, the training of the neural network and the execution of the game itself. 
+In this project, a simulation of the game is creted in order to provide a neural network the facilities to be trained to play the game and try to win the most games as possible. The project is divided in two parts, the training of the neural network and the execution of the game itself.
+
+![](./Img/FindePartida_Catan.png)
 
 ## Explanation of the proyect
 
@@ -9,7 +11,7 @@ The goal of this project is to:
     - Build a simulator that can execute the game of catan and all variables and information are available to the player at any moment during the game.
     - Create an artificial intelligence able to beat 3 players whose actions are chosen randomly.
 
-For more information, read the paper located in the base directory of this repositoy.
+For more information, read the paper located at the base directory of this repositoy.
 
 ## How to use the project
 
