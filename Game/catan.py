@@ -32,12 +32,12 @@ def complete_building_phase(game):
         pygame.display.update()
     game.building_phase = False
 
-def game_of_catan(red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,red_12):
+def game_of_catan(red):
     pygame.init()
     screen = pygame.display.set_mode((1600, 900))
     font = pygame.font.Font(pygame.font.get_default_font(),12)
     pygame.display.set_caption("Game of Catan")
-    game = Game(screen,font,red,red_1,red_2,red_16,red_3,red_5,red_7,red_8,red_10,red_11,red_12)
+    game = Game(screen,font,red)
 
     game.print_game()
     pygame.display.update()
@@ -87,9 +87,9 @@ if __name__ == '__main__':
         with open(args_file) as file:
             for line in file:
                 arguments += [float(line)]
-        print(arguments)
+        # print(arguments)
     except:
         print("Algo ha salido mal")
         sys.exit(-1)
     red = CreateNN.CreateNN(arguments, [4,10],279,17)
-    game_of_catan(red,0,0,0,0,0,0,0,0,0,0)
+    game_of_catan(red)

@@ -195,20 +195,10 @@ class Player:
         self.screen.blit(vp_font.render("VP: " + str(self.vp + self.vp_cards),True,(212,175,55)), (top_corner[0]+250, top_corner[1]+60))
 
 class Game:
-    def __init__(self,screen,font,red,red_1,red_2,red_3,red_5,red_7,red_8,red_10,red_11,red_12,red_16):
+    def __init__(self,screen,font,red):
         self.screen = screen
         self.font = font
         self.red = red
-        self.red_1 = red_1
-        self.red_2 = red_2
-        self.red_16 = red_16
-        self.red_3 = red_3
-        self.red_5 = red_5
-        self.red_7 = red_7
-        self.red_8 = red_8
-        self.red_10 = red_10
-        self.red_11 = red_11
-        self.red_12 = red_12
         self.recompensa = 0
         self.decision_failed = False
         self.corners = []
@@ -528,13 +518,13 @@ class Game:
         type_possible = []
         while (len(type_possible) == 0):
             type_chosen = -1
-            list_max = 0
+            list_max = -1
             for i in range(len(type_probabilities)):
                 if (type_probabilities[i] > list_max):
                     list_max = type_probabilities[i]
             for i in range(len(type_probabilities)):
                 if (type_probabilities[i] == list_max):
-                    type_probabilities[i] = 0
+                    type_probabilities[i] = -1
                     type_chosen = i
                     break
             if (type_chosen == -1):
@@ -554,175 +544,7 @@ class Game:
             if action_chosen == possible_actions_list[i]:
                 return i
         return -1
-        """
-        self.recompensa += 1
-        decision_to_make = type_chosen
-        # Opci´on de restar recompensa para que aprenda a no decir acciones que no estan en la lista
-        if type_chosen == PLACE_ROAD or type_chosen == PLACE_FREE_ROAD:
-            #print("Type_possible",type_possible)
-            #print("Type_possible",type_possible[:][1])
-            for i in range(72):
-                if i in type_possible[:][1]:
-                    red1_inputs += [1]
-                else:
-                    red1_inputs += [0]
-            print(len(common_inputs + red1_inputs))
-            option_chosen = int(NN(self.red_1, common_inputs + red1_inputs) * 72)
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen)
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLACE_SETTLEMENT:
-            for i in range(54):
-                if i in type_possible[:][1]:
-                    red1_inputs += [1]
-                else:
-                    red1_inputs += [0]
-            print(len(common_inputs + red2_inputs))
-            option_chosen = int(NN(self.red_2, common_inputs + red2_inputs) * 54)
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen)
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLACE_SETTLEMENT_THEN_ROAD:
-            red16_inputs = []
-            for i in range(54):
-                for road in self.corners[i].adjacents_edges:
-                    if [(PLACE_SETTLEMENT_THEN_ROAD,i,road)] in type_possible:
-                        red16_inputs += [1]
-                    else:
-                        red16_inputs += [0]
-            print(red16_inputs)
-            print(len(common_inputs + red16_inputs))
-            option_chosen = NN(self.red_16, common_inputs + red16_inputs)
-            option_chosen[0] = int(option_chosen[0] * 54)
-            option_chosen[1] = int(option_chosen[1] * 72)
-            print(option_chosen)
-            option_chosen = [int(option_chosen[0]), int(option_chosen[1])]
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen[0], option_chosen[1])
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLACE_CITY:
-            for i in range(54):
-                if i in type_possible[:][1]:
-                    red1_inputs += [1]
-                else:
-                    red1_inputs += [0]
-            print(red3_inputs)
-            print(len(common_inputs + red3_inputs))
-            option_chosen = int(NN(self.red_3, common_inputs + red3_inputs) * 54)
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen)
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLACE_ROBBER:
-            for i in range(19):
-                if i in type_possible[:][1]:
-                    red1_inputs += [1]
-                else:
-                    red1_inputs += [0]
-            print(red3_inputs)
-            print(len(common_inputs + red1_inputs))
-            option_chosen = int(NN(self.red_5, common_inputs + red5_inputs) * 19)
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen)
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLAY_MONOPOLY:
-            option_chosen = int(NN(self.red_7, common_inputs) * 5)
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen)
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == PLAY_YEAR_OF_PLENTY:
-            option_chosen = NN(self.red_8, common_inputs)
-            option_chosen[0] = int(option_chosen[0] * 5)
-            option_chosen[1] = int(option_chosen[1] * 5)
-            print(option_chosen)
-            option_chosen = [int(option_chosen[0]), int(option_chosen[1])]
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen[0], option_chosen[1])
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == DISCARD:
-            red10_inputs = []
-            for lumber in range(20):
-                for brick in range(20):
-                    for wool in range(20):
-                        for ore in range(20):
-                            for grain in range(20):
-                                for discard in type_possible[1]:
-                                    print(discard)
-                                    if (discard.count(FOREST) == lumber and
-                                        discard.count(HILLS) == brick and
-                                        discard.count(PASTURE) == wool and
-                                        discard.count(FIELDS) == grain and
-                                        discard.count(MOUNTAINS) == ore):
-                                        red10_inputs += [1]
-                                    else:
-                                        red10_inputs += [0]
-            red10_inputs += [self.players[self.player_in_turn].resource_cards//2]
-            print(red10_inputs)
-            print(len(common_inputs + red10_inputs))
-            option_chosen = NN(self.red_10, common_inputs + red10_inputs)
-            option_chosen[0] = int(option_chosen[0] * 20)
-            option_chosen[1] = int(option_chosen[1] * 20)
-            option_chosen[2] = int(option_chosen[2] * 20)
-            option_chosen[3] = int(option_chosen[3] * 20)
-            option_chosen[4] = int(option_chosen[4] * 20)
-            print(option_chosen)
-            option_chosen = [int(option_chosen[0]), int(option_chosen[1]), int(option_chosen[2]), int(option_chosen[3]), int(option_chosen[4])]
-            print(option_chosen)
-            list_of_discards = [[FOREST]*option_chosen[0],[HILLS]*option_chosen[1],[PASTURE]*option_chosen[2],[FIELDS]*option_chosen[3],[MOUNTAINS]*option_chosen[4]]
-            print(list_of_discards)
-            decision_to_make = [type_chosen,[list_of_discards]]
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == MARITIME_TRADE:
-            red11_inputs = []
-            for i in range(5):
-                for j in range(5):
-                    if [(MARITIME_TRADE,i,j)] in type_possible:
-                        red11_inputs += [1]
-                    else:
-                        red11_inputs += [0]
-            print(red11_inputs)
-            print(len(common_inputs + red11_inputs))
-            option_chosen = NN(self.red_11, common_inputs + red11_inputs)
-            option_chosen[0] = int(option_chosen[0] * 5)
-            option_chosen[1] = int(option_chosen[1] * 5)
-            print(option_chosen)
-            option_chosen = [int(option_chosen[0]), int(option_chosen[1])]
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen[0], option_chosen[1])
-            print("Decision_to_make",decision_to_make)
-        elif type_chosen == DOMESTIC_TRADE:
-            red12_inputs = []
-            for i in range(5):
-                for j in range(5):
-                    for k in range(1,4):
-                        if [(DOMESTIC_TRADE,i,k,j,k)] in type_possible:
-                            red12_inputs += [1]
-                        else:
-                            red12_inputs += [0]
-            print(red12_inputs)
-            print(len(common_inputs + red12_inputs))
-            option_chosen = NN(self.red_12, common_inputs + red12_inputs)
-            option_chosen[0] = int(option_chosen[0] * 5)
-            option_chosen[1] = int(option_chosen[1] * 5)
-            option_chosen[2] = int(option_chosen[2] * 3) + 1
-            print(option_chosen)
-            option_chosen = [int(option_chosen[0]), int(option_chosen[1]), int(option_chosen[2])]
-            print(option_chosen)
-            decision_to_make = (type_chosen, option_chosen[0], option_chosen[1], option_chosen[2])
-            print("Decision_to_make",decision_to_make)
-        try:
-            final_decision = possible_actions_list.index(decision_to_make)
-            self.recompensa += 5
-            print("Decisión final: ",final_decision)
-            return final_decision
-        except ValueError:
-            print("Ha salido ValueError")
-            self.decision_failed = True
-            return -1
-            #Aquí hay que hacer que pierda puntos por coger una opción que no esta en la lista
-        except:
-            print("Algo ha salido mal")
-            return 0
-        """
+
     def AlmostRandomDecision(self, possible_actions_list, actiontypes, player):
         prob_sum = []
         for i in actiontypes:
