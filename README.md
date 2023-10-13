@@ -3,7 +3,7 @@ The settlers of Catan is a very popular board game based in building and coloniz
 
 In this project, a simulation of the game is creted in order to provide a neural network the facilities to be trained to play the game and try to win the most games as possible. The project is divided in two parts, the training of the neural network and the execution of the game itself.
 
-![](./Img/FindePartida_Catan.png)
+![](./Anexos/FindePartida_Catan.png)
 
 ## Explanation of the proyect
 
